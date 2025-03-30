@@ -44,6 +44,8 @@ to make a basic one, and it's easy to expand as needed.
   </details>
   ```
 
+  {nitpick}`(curiosity) This is an example of the fact that, if one absolutely wants that, it is legal to use HTML directly in markdown files`
+
 - Would you like to add a badge like this one: [![please replace with alt text](https://img.shields.io/badge/anytext-youlike-blue)](https://example.org)?
 
   Badge that links to a website (see also <https://shields.io/>):
@@ -57,7 +59,6 @@ to make a basic one, and it's easy to expand as needed.
 
 - Know about other tips and tricks? Please share them (send a pull request to this lesson).
 ````
-
 
 ## Exercise: Improve the README for your own project
 
@@ -106,7 +107,9 @@ research and discuss their README.
   ```markdown
   [[_TOC_]]
   ```
-- With RST you can generate a table of contents (TOC) automatically by adding:
-  ```rst
+- With ReST you can generate a table of contents (TOC) automatically by adding:
+  ```rst 
   .. contents:: Table of Contents
   ```
+
+{nitpick}`This is an example of the anarchy due to the limited specification of markdown, and why makes ReST/MyST attractive`

@@ -28,6 +28,9 @@
   - **Explanation**: understanding-oriented, explains a concept
   - **Reference**: information-oriented, describes the machinery
 
+  {nitpick}`Documentation should be written with the reader in mind, and there are more than one kind of reader!`
+  
+
   Read more:
   - <https://www.divio.com/blog/documentation/>
   - <https://diataxis.fr/>
@@ -51,6 +54,8 @@
 ```
 
 ````{solution} Our wishlist (but let us brainstorm first)
+
+  {nitpick}`First of all: we want documentation to stay correct, that is, it must be easy to maintain.`
 
   **Versions**
 
@@ -90,6 +95,8 @@
   - Automatically generated documentation (e.g. API documentation) is useful as
     complementary documentation but it does not replace tutorials written by
     humans.
+    
+    {nitpick}`Humans know what other similar humans need`
 
 
   **Installation instructions**
@@ -113,6 +120,11 @@
   - Make it easy for others to contribute: **document how you prefer others to contribute**.
   - Users of your code may be shy to contribute code.
     Your **documentation provides a platform for your first contributions**.
+    
+    
+    
+  {nitpick}`Correctness of some kind of documentation is testable automatically! See our episodes about Jupyter Notebooks later and about testing tomorrow.`
+
 ````
 
 
@@ -127,7 +139,8 @@
   - Copy-paste-able example to get started
   - Dependencies and their versions or version ranges
   - Installation instructions
-  - Tutorials covering key functionality
+  - Tutorials covering key functionality 
+    {nitpick}`... and if you make them using Jupyter notebooks they can also be validated!`
   - Reference documentation (e.g. API) covering all functionality
   - How do you want to be asked questions (mailing list or forum or chat or issue tracker)
   - Possibly a FAQ section

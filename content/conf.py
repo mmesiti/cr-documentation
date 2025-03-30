@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+sys.path.append(str(Path("ext").resolve()))
+
+
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -20,7 +26,7 @@
 project = "How to document your research software"
 copyright = "CodeRefinery team"
 author = "CodeRefinery team"
-github_user = "coderefinery"
+github_user = "mmesiti"
 github_repo_name = "documentation"  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/" # with leading and trailing slash
@@ -37,6 +43,7 @@ extensions = [
     # remove once sphinx_rtd_theme updated for contrast and accessibility:
     "sphinx_rtd_theme_ext_color_contrast",
     "sphinx_coderefinery_branding",
+    "nitpicking",
 ]
 
 # Settings for myst_nb:

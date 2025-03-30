@@ -2,3 +2,5 @@
 _build/
 venv/
 .*.sw?
+.python-version
+__pycache__

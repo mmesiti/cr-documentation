@@ -10,7 +10,6 @@
 
 In this episode we will learn how to write good documentation inside your code.
 
-
 ## Exercise - Writing good comments
 
 ````{exercise} In-code-1: Comments
@@ -172,6 +171,12 @@ variables) already provides very useful and important documentation. In
 practice you will find that for simple functions it is unnecessary to add a
 docstring when the function name and variable names already give enough
 information.
+
+{nitpick}`Coming up with good comments/docstrings (as with good variable and function names) typically requires some iterations. Module/file names help too!`
+{nitpick}`Also, remove clutter! Unused files, unused functions...`
+
+
+
 
 ---
 

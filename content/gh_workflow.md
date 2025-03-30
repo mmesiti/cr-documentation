@@ -101,6 +101,7 @@ jobs:
 
 - [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
   and [GitLab CI](https://docs.gitlab.com/ee/ci/) can create a very similar workflow.
+  {nitpick}`And have a guided procedure to add pages to your repository (if gitlab pages are enabled)`
 
 - [Read the Docs](https://readthedocs.org) is the most common alternative to
   hosting in GitHub Pages.

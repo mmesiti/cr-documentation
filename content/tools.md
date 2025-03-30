@@ -11,6 +11,8 @@
 
 ---
 
+{nitpick}`Can code self-document? Some people say so, but it is hard!`
+
 ## In-code documentation
 
 - Comments, function docstrings, ...
@@ -36,6 +38,8 @@ We will have a closer look at this in the {ref}`in-code-documentation` episode.
 - A great guide to README files: [MakeaREADME](https://www.makeareadme.com/)
 
 We will have a closer look at this in the {ref}`writing-readme-files` episode.
+
+{nitpick}`Talking about READMEs: they are possibly the most AI-Friendly documentation format (you can just copy&paste the whole README in the context window of the LLM of your choice)`
 
 ---
 
@@ -148,6 +152,8 @@ GitHub, GitLab, and Bitbucket make it possible to serve HTML pages:
   [Doxygen special commands](https://www.doxygen.nl/manual/commands.html)
 - Can be used to also generate higher-level ("human") documentation
 - Can be deployed to GiHub/GitLab/Bitbucket Pages
+
+{nitpick}`If you prefer the look&feel of Sphinx, you can still use Doxygen as a backend and Sphinx through Breathe.`
 
 ---
 

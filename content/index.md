@@ -35,10 +35,12 @@ The approach that we will learn will be transferable to
 :delim: ;
 
 10 min ; {doc}`wishlist`
-10 min ; {doc}`tools`
-20 min ; {doc}`in-code-documentation`
-30 min ; {doc}`writing-readme-files`
-30 min ; {doc}`sphinx`
+5 min ; {doc}`tools`
+5 min ; {doc}`in-code-documentation`
+25 min ; {doc}`writing-readme-files`
+10 min ; {doc}`sphinx`: Quickstart
+10 min ; BREAK 
+15 min ; {doc}`sphinx`: Exercises 
 20 min ; {doc}`gh_workflow`
 20 min ; {doc}`gh-pages`
 5 min  ; {doc}`summary`
