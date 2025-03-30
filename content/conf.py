@@ -24,10 +24,10 @@ sys.path.append(str(Path("ext").resolve()))
 # -- Project information -----------------------------------------------------
 
 project = "How to document your research software"
-copyright = "CodeRefinery team"
-author = "CodeRefinery team"
+copyright = "CodeRefinery contributors"
+author = "CodeRefinery contributors"
 github_user = "mmesiti"
-github_repo_name = "documentation"  # auto-detected from dirname if blank
+github_repo_name = "cr-documentation"  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/" # with leading and trailing slash
 
