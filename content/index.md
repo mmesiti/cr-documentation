@@ -39,13 +39,13 @@ recorded a [short shell crash course](https://youtu.be/xbTTDLA3txI).
 
 10 min ; {doc}`wishlist`
 5 min ; {doc}`tools`
-5 min ; {doc}`in-code-documentation`
-25 min ; {doc}`writing-readme-files`
+10 min ; {doc}`in-code-documentation`
+20 min ; {doc}`writing-readme-files`
 10 min ; {doc}`sphinx`: Quickstart
 10 min ; BREAK 
-15 min ; {doc}`sphinx`: Exercises 
-20 min ; {doc}`gh_workflow`
-20 min ; {doc}`gh-pages`
+22 min ; {doc}`sphinx`: Exercises 
+22 min ; {doc}`gh_workflow`
+15 min ; {doc}`gh-pages`
 5 min  ; {doc}`summary`
 ```
 
