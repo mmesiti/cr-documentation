@@ -34,12 +34,16 @@ Here below, NAMESPACE can either be a username or an organizational account.
 
 ```{exercise} GH-Pages-2: Host your own github page
 - Deploy own website reusing a template:
+  - {nitpick}`Actually it's better to follow these instructions directly <a href="https://docs.github.com/en/pages/quickstart">from this quickstart</a> because the ones mentioned at pages.github.com do not actually work.`
   - Follow the steps from GitHub Pages <https://pages.github.com/>.
     The documentation there is very good so there is no need for us to duplicate the screenshots.
   - Select "Project site".
   - Select "Choose a theme".
   - Follow the instructions on <https://pages.github.com/>.
+  - {nitpick}`The following one actually works`
   - Browse your page on https://**USERNAME**.github.io/**REPOSITORY** (adjust "USERNAME" and "REPOSITORY").
+
+
 - Make a change to the repository after the webpage has been deployed for the first time.
 - Please wait few minutes and then verify that the change shows up on the website.
 ```

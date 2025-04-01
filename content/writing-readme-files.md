@@ -98,12 +98,18 @@ research and discuss their README.
 - Please note observations and recommendations in the collaborative notes.
 
 
-{nitpick}`Example: https://github.com/UppASD/UppASD`
+{nitpick}`Example: https://github.com/UppASD/UppASD` 
+
 {nitpick}`Example: https://github.com/sa2c/sunpyter`
+
 {nitpick}`Optional Example: https://gitlab.kit.edu/kit/scs-public/gitlab-ci-custom-executor-slurm-enroot_apptainer`
-{nitpick}`About last one: problem was, how to reduce the burden of maintaining the documentation?`
+
+{nitpick}`About last one: problem was, how to reduce the burden of maintaining the documentation? `
 
 ```
+
+{nitpick}`A comment: use <a href="https://sembr.org/"> semantic line breaks!</a>`
+
 
 ---
 
