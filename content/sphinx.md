@@ -321,6 +321,12 @@ to edit `conf.py` and add `sphinx.ext.mathjax`:
 extensions = ['myst_parser', 'sphinx.ext.mathjax']
 ```
 
+```{nitpick}
+Actually, adding this extension is not needed anymore 
+and mathematical formulas are displayed using Mathjax 
+by default.
+```
+
 Try this (result below):
 ````markdown
 This creates an equation:
