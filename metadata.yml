@@ -45,8 +45,9 @@ repository-code: "https://github.com/coderefinery/documentation"
 # List of Text. Not used in CITATION.cff. Comma-joined for
 # bioschemas.yml's keywords string, and used as Zenodo's keywords list.
 keywords:
-  - ""
-  - ""
+  - "documentation"
+  - "sphinx"
+  - "static website"
  
 
 # Text or DefinedTerm per schema.org. bioschemas.yml only. E.g.
