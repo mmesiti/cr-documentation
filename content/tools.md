@@ -22,7 +22,7 @@
 *  - Type
    - Convenient  
    - Easy
-   - Maintainabile
+   - Maintainable
    - Searchable
    - Readable 
    - LLM-friendly 
@@ -48,8 +48,8 @@
    - ❌
    - ✅🟨
    - ✅
-   - ❌
    - ✅✅
+   - ❌
    - powerful 
 *  - Wikis
    - 🟨
@@ -86,7 +86,7 @@ What do we mean?
    It is even better if it is easy to check automatically that the information is correct 
    (*does the output of a snippet of code match what is shown in the docs?*)
 - **Searchability:** How easy is it to find the information we need?
-- **Readability**: Can the documentation be rendered in a way that makes it easy to read?
+- **Readability**: Can the documentation be rendered in a way that makes it easy to read? Can one copy-paste from it easily?
 - **LLM-friendliness**: how easy is to feed this documentation to an LLM?
 
 
@@ -234,7 +234,7 @@ to common software forges.
 ```{discussion}
 
 Do you know an awesome tool or feature that should be in this list? 
-Let us know! (Open a PR)
+Let us know! (click on "Edit on GitHub" at the top of this page)
 
 ```
 
