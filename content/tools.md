@@ -11,84 +11,98 @@
 
 ---
 
-
 ## Documentation Tools: comparison
 
-```{list-table} Comparison of the tools for documentation we have discussed so far
-:widths: 20 10 10 10 10 10 10 15
+We try to compare documentation tools 
+in various dimensions: 
+- **Convenience**: how easy it is to contribute and set up, 
+  for different kinds of people?
+- **Maintainability and Reproducibility**: is it easy to retrieve the information for different versions of the code?
+   Good for tools that can be version-controlled 
+   along with the code.  
+   Even better if correctness of information can be checked automatically
+   (*does the output of a snippet of code match the docs?*)
+- **Searchability:** is it easy to find the information we need?
+- **Readability**: is it easy to read when rendered? Can one copy-paste from it easily?
+- **LLM-friendliness**: is it convenient to feed to an LLM or an AI-agent?
+
+```{list-table} Comparison of tools for documentation
+:widths: 20 20 10 10 10 10 15
 :header-rows: 1
 :stub-columns: 1
 
 *  - Type
-   - Convenient  
-   - Easy
-   - Maintainable
+   - Convenient
+   - Maintainable/  
+     Reproducible
    - Searchable
    - Readable 
-   - LLM-friendly 
+   - LLM  
+     friendly 
    - Notes
-*  - in-code doc
-   - ✅✅ 
-   - 🟨
+*  - In-code  
+     Documentation
+   - ✅✅ (P),  
+     ❌ (U)
    - ✅🟨
    - 🟨
    - ❌
    - ✅🟨
-   - ❌for users
+   - 
 *  - README
-   - ✅
    - ✅
    - ✅🟨
    - 🟨
    - ✅
    - ✅
    - typically enough  
-*  - HTML Generators
-   - 🟨
-   - ❌
+*  - HTML  
+     Generators
+   - 🟨 
    - ✅🟨
    - ✅
    - ✅✅
    - ❌
-   - powerful 
+   - powerful,  
+     **only viable option**  
+     **for readable API docs**
 *  - Wikis
-   - 🟨
-   - ✅
+   - 🟨 (P)  
+     ✅ (NP)
    - ❌❌ 
    - ✅
    - ✅
    - ❌
-   - ✅for non-programmers
+   -
 *  - Latex
-   - 🟨(?)
-   - ❌
+   - 🟨
    - ❌🟨
    - 🟨
    - ✅ (?)
    - ❌
-   - ✅Physics/Math, 
+   - ✅Physics/Math,  
      ❌copy/paste
 *  - Jupyter 
    - 🟨
-   - 🟨/❌
+     🟨/❌
    - ✅✅ 
    - 🟨 (?)
    - ✅ 
    - 🟨 
    - ✅ validation tooling
+*  - [llms.txt](https://llmstxt.org/)
+   - 🟨
+   - 🟨
+   - N/A
+   - 🟨/❌
+   - ✅✅
+   - 
 ```
+Abbreviations in the table:
 
-What do we mean?
-- **Convenience**: for programmers who live in code.
-- **Easiness**: how easy is is to contribute and set up?
-- **Maintainability** is good for those tools that can be version-controlled 
-   along with the code.
-   It is even better if it is easy to check automatically that the information is correct 
-   (*does the output of a snippet of code match what is shown in the docs?*)
-- **Searchability:** How easy is it to find the information we need?
-- **Readability**: Can the documentation be rendered in a way that makes it easy to read? Can one copy-paste from it easily?
-- **LLM-friendliness**: how easy is to feed this documentation to an LLM?
-
+- **P**: For Programmers, who live in the code;
+- **U**: For Users;
+- **NP**: For Non-Programmers.
 
 ---
 
@@ -102,7 +116,7 @@ or hosted on the web.
 
 Here are some HTML static site generators, relevant in our communities.
 These tools offer some or all of these features:
-- **API Reference generation**: source code is read, scan for docstrings and render them
+- **API Reference generation**: they read the source code scanning for docstrings, and render them to HTML
 - **Search**: they offer a "whole site" search feature (non trivial, when viewing only one page).
               (if you can download )
 - **Validation**: check that the code snipped in the documentation 
@@ -133,7 +147,7 @@ These tools offer some or all of these features:
 
        [^mkdocsdrama]: After somewhat dramatic events (2026), 
              MkDocs 1.x is now superseded by [Zensical](https://zensical.org/),
-             which tries to keep compatibility wiht MkDocs 1.x.
+             which tries to keep compatibility with MkDocs 1.x.
              (MkDocs 2.0 is also being developed 
              but projects and plugins based on 1.x 
              will break).
