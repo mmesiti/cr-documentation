@@ -158,7 +158,7 @@ Create that file (if not existing), and add the definition of a new job in it:
 create-pages:
   image: python:latest
   script:
-    - pip install sphinx sphinx_rtd_theme myst_parser
+    - pip install -r requirements.txt 
     - sphinx-build doc public 
   pages: true
 :::
